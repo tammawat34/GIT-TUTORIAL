@@ -1,6 +1,4 @@
 print("try")
-print("try again")
-print("I change it")
-print("my name is Tangmo")
+
 print("My data")
 print ("try delete old and merge new")
