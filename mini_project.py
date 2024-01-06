@@ -25,7 +25,7 @@ postgres_info = {
 # Extract data from source
 s3_client = boto3.client('s3')
 bucket_name = 'fullstackdata2023'
-source_path = 'common/data/partitioned/2023/12/30/transaction.csv'
+source_path = 'common/data/partitioned/2023/11/30/transaction.csv'
 
 @task(retries=3)
 def extract(bucket_name, source_path):
